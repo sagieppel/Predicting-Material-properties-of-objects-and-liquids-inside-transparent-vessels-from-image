@@ -7,8 +7,7 @@ Training the net was done using the TransProteus dataset [Full Dataset 1](https:
 See paper []() for more details
 
 
-The same code with trained model included (run out of the box) could be download from: (Here)[] 
-
+The same code with trained model included (run out of the box) could be download from: [1](https://e.pcloud.link/publink/show?code=XZDq55Z5k1jugRCGbj4OCAmdIL9M4vOo8Py),[2](https://icedrive.net/0/fbQuVti8WO).
 ![](/Figure1.jpg)
 Figure 1. Structure of the net for predicting materials properties of the vessel content and vessel surface from an image.
 
@@ -28,7 +27,7 @@ This network was run with Python 3.88 [Anaconda](https://www.anaconda.com/downlo
 
 # Inference: running the trained net on  a single image
 
-1. Train net or download code with pre-trained net weight from (here)[]].
+1. Train net or download code with pre-trained net weight from [1](https://e.pcloud.link/publink/show?code=XZDq55Z5k1jugRCGbj4OCAmdIL9M4vOo8Py),[2](https://icedrive.net/0/fbQuVti8WO).
 2. Open RunOnImage.py
 3. Set image path to InputImage parameter (or use the pre-set example)
 4. Set the path to the Vessel Mask image to InputMask parameter (or use the pre-set example)   
@@ -54,7 +53,7 @@ Note that this dictionary can get several folders, and each folder can be added 
 
 ## Evaluating 
 
-1. Train net or download code with pre-trained net weight from [here](). 
+1. Train net or download code with pre-trained net weight from [1](https://e.pcloud.link/publink/show?code=XZDq55Z5k1jugRCGbj4OCAmdIL9M4vOo8Py),[2](https://icedrive.net/0/fbQuVti8WO). 
 2. Open file EvaluateNet.py
 3. Set a path to the trained net weights  file in: Trained_model_path  (If you downloaded the code with the pre-train network from [here]() the model path is already set)
 4. Set Test data folder  path to the  TestFolder parameter (TransProteus)
