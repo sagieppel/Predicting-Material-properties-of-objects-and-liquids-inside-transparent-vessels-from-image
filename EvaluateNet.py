@@ -13,7 +13,7 @@ import cv2
 # .................................Main Input parametrs...........................................................................................
 TestFolder = r"Examples/Train/" # Test folder
 #TestFolder = r"TranProteus/Testing/LiquidContent/" # Test folder
-Trained_model_path="logs_VesselMask//Defult.torch" # Weights of model to test
+Trained_model_path="logs//Defult.torch" # Weights of model to test
 InputMask="VesselMask"#"ContentMask" # Name of the mask that will be given as input to the vessel#"ContentMask", # VesselMask
 
 ####################Properties to  predict############################################################################################
