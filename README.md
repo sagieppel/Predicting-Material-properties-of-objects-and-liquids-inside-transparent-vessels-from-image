@@ -2,7 +2,7 @@
 Given an image containing transparent containers with something inside (liquid or object), predict the Material properties of the vessel content and the vessel surface.
 The properties predicted include: Color (RGB), Transparency (Transmission), Roughness, Reflectiveness( Metallic), these properties are based on the [Blender (CGI) Principle BSDF node description of materials](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html)
 
-Training the net was done using the TransProteus dataset [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV), [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV) [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
+Training the net was done using the TransProteus dataset [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV),  [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
 
 See paper []() for more details
 
@@ -39,7 +39,7 @@ UseGPU: decide whether to use GPU hardware (True/False).
 
 # For training and evaluating download TransProteus and LabPics
 
-1. Download and extract the TransProteus dataset  [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV), [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV) [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
+1. Download and extract the TransProteus dataset  [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV),  [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
 
 
 ## Training
