@@ -13,7 +13,7 @@ import cv2
 # .................................Main Input parametrs...........................................................................................
 InputImage = r"Examples//Image.jpg" # Input image path
 InputMask = r"Examples//Mask.png" # Input mask path
-Trained_model_path="logs_VesselMask//Defult.torch" # Trained model path
+Trained_model_path="logs//Defult.torch" # Trained model path
 UseGPU=False # Run Net on GPU
 ####################Properties to  predict############################################################################################
 
