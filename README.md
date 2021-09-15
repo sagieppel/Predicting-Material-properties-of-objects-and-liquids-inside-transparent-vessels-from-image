@@ -2,7 +2,7 @@
 Given an image containing transparent containers with something inside (liquid or object), predict the Material properties of the vessel content and the vessel surface.
 The properties predicted include: Color (RGB), Transparency (Transmission), Roughness, Reflectiveness( Metallic), these properties are based on the [Blender (CGI) Principle BSDF node description of materials](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html)
 
-Training the net was done using the [TransProteus dataset]().
+Training the net was done using the TransProteus dataset [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV), [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV) [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
 
 See paper []() for more details
 
@@ -28,7 +28,7 @@ This network was run with Python 3.88 [Anaconda](https://www.anaconda.com/downlo
 
 # Inference: running the trained net on  a single image
 
-1. Train net or download code with pre-trained net weight from (here)[] or (here)[Just for liquids].
+1. Train net or download code with pre-trained net weight from (here)[]].
 2. Open RunOnImage.py
 3. Set image path to InputImage parameter (or use the pre-set example)
 4. Set the path to the Vessel Mask image to InputMask parameter (or use the pre-set example)   
@@ -39,7 +39,8 @@ UseGPU: decide whether to use GPU hardware (True/False).
 
 # For training and evaluating download TransProteus and LabPics
 
-1. Download and extract the TransProteus dataset from (here partial)[] or (here partial)[] or (here full)[] 
+1. Download and extract the TransProteus dataset  [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV), [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV) [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
+
 
 ## Training
 
