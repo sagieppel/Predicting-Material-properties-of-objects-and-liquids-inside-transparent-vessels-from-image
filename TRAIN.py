@@ -14,12 +14,10 @@ import cv2
 #.................................Main Input parametrs...........................................................................................
 DataFolder={} # Contain list of folders that will contain training data
 DataFolder["LiquidContent"]=r"Examples/Train//"
-# DataFolder["ObjectContent"]=r"TransProteus/Training/ObjectContent/"
-# DataFolder["ObjectContent2"]=r"TransProteus/Training/ObjectContent/"
-# DataFolder["LiquidContent"]=r"Training/LiquidContent/"
-# DataFolder["LiquidContent2"]=r"TransProteus/Training/LiquidContent/"
-# DataFolder["LiquidFlat"]=r"TransProteus/Training/FlatLiquidAll/"
-# DataFolder["LiquidContent"]=r"TransProteus/Testing/FlatSurfaceLiquids/"
+# TransProteusFolder["ObjectContent"]=r"TranProteus/Training/ObjectContent/"
+# TransProteusFolder["ObjectContent2"]=r"TranProteus/Training/SingleObjectContent/"
+# TransProteusFolder["LiquidContent"]=r"TranProteus/Training/LiquidContent/"
+# TransProteusFolder["LiquidFlat"]=r"TranProteus/Training/FlatSurfaceLiquids/
 
 MinSize=280 # Min image dimension size (Height,width)
 MaxSize=1000# Max image dimension size (Height,width)
