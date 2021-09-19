@@ -4,7 +4,8 @@ The properties predicted include: Color (RGB), Transparency (Transmission), Roug
 
 Training the net was done using the TransProteus dataset [Full Dataset 1](https://e.pcloud.link/publink/show?code=kZfx55Zx1GOrl4aUwXDrifAHUPSt7QUAIfV),  [Full DataSet Link2](https://icedrive.net/1/6cZbP5dkNG), [Subset](https://zenodo.org/record/5508261#.YUGsd3tE1H4) 
 
-See paper []() for more details
+For more details see: [Predicting 3D shapes, masks, and properties of materials, liquids, and
+objects inside transparent containers, using the TransProteus CGI dataset](https://arxiv.org/pdf/2109.07577.pdf)
 
 
 The same code with trained model included (run out of the box) could be download from: [1](https://e.pcloud.link/publink/show?code=XZDq55Z5k1jugRCGbj4OCAmdIL9M4vOo8Py),[2](https://icedrive.net/0/fbQuVti8WO).
@@ -64,6 +65,7 @@ For other parameters, see the Input parameters section.
 
 
 ## More Info 
-See paper ()[] For more details
+For more details see: [Predicting 3D shapes, masks, and properties of materials, liquids, and
+objects inside transparent containers, using the TransProteus CGI dataset](https://arxiv.org/pdf/2109.07577.pdf)
 
 
