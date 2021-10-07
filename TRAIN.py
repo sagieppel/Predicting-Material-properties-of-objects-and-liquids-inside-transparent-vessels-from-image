@@ -25,7 +25,7 @@ MaxPixels=800*800*1.5# Max size of training batch in pixel, reduce to solve out 
 MaxBatchSize=6#MAx number images in a batch
 InputMaskType="VesselMask" ##"ContentMask" # Type of input mask for the net ("Vessel"/"Content")
 Trained_model_path="" # Path of trained model weights If you want to return to trained model, else should be =""
-Learning_Rate=1e-5 # learning rate
+Learning_Rate=1e-4 # learning rate
 TrainedModelWeightDir="logs/" # Folder where trained model weight and information will be stored"
 Weight_Decay=1e-5# Weight for the weight decay loss function
 TrainLossTxtFile=TrainedModelWeightDir+"TrainLoss.txt" #Where train losses will be writen
